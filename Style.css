@@ -1,0 +1,30 @@
+/* Carte Cadeau */
+#carte-cadeau {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+#carte-cadeau h2 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+.cartes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.cartes h3 {
+  color: #333;
+}
+
+.cartes p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 0.5rem;
+  text-align: center;
+}
